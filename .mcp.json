@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "neon": {
+      "type": "http",
+      "url": "https://mcp.neon.tech/mcp"
+    },
+    "drizzle": {
+      "command": "npx",
+      "args": ["github:defrex/drizzle-mcp", "./drizzle.config.ts"]
+    },
+    "next-devtools": {
+      "command": "npx",
+      "args": ["-y", "next-devtools-mcp@latest"]
+    },
+    "uploadthing": {
+      "command": "npx",
+      "args": ["-y", "@uploadthing/mcp-server"],
+      "env": {
+        "UPLOADTHING_TOKEN": ""
+      }
+    },
+    "resend": {
+      "command": "npx",
+      "args": ["-y", "resend-mcp"],
+      "env": {
+        "RESEND_API_KEY": ""
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    }
+  }
+}
