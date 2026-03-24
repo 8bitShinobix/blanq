@@ -8,6 +8,27 @@
       "when": 1770905984045,
       "tag": "0000_stale_lizard",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1772709905051,
+      "tag": "0001_fuzzy_starhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1772870400000,
+      "tag": "0002_add_deleted_at_to_form",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1772732067844,
+      "tag": "0003_conscious_mathemanic",
+      "breakpoints": true
     }
   ]
 }
