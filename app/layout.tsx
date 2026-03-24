@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description:
     "Create stunning, branded forms in minutes. No design skills needed. Beautiful by default, customizable themes, and zero effort.",
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
+    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
   ),
   openGraph: {
     type: "website",
